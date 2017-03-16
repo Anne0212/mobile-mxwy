@@ -1,0 +1,986 @@
+@charset "utf-8";
+/*头部*/
+header{
+	width: 7.5rem;
+	height: 3.96rem;
+	background: #f0f0f0;
+	margin:0 auto;
+}
+/*头部顶部*/
+header .top{
+	width: 7.5rem;
+	height: 0.94rem;
+}
+header .top img:nth-of-type(1){
+	width:1.56rem;
+	height: 0.37rem;
+	float: left;
+	margin-top: 0.2rem;
+	margin-left: 0.18rem;
+}
+header .top img:nth-of-type(2){
+	width: 0.6rem;
+	height: 0.6rem;
+	float: right;
+	margin-top: 0.15rem;
+	margin-right: 0.2rem;
+}
+header .top img:nth-of-type(3){
+	width:0.6rem;
+	height: 0.6rem;
+	float: right;
+	margin-top: 0.15rem;
+	margin-right: 0.4rem;
+}
+/*banner 轮播*/
+header .swiper-container{
+	width: 7.5rem;
+	height: 3.01rem;
+}
+header .swiper-container .swiper-wrapper .swiper-slide img:nth-of-type(1){
+	width: 7.5rem;
+	height: 3.01rem;
+} 
+
+header .swiper-container .swiper-wrapper .swiper-slide img:nth-of-type(2){
+	width: 7.5rem;
+	height: 4.01rem;
+} 
+header .swiper-container .swiper-wrapper .swiper-slide img:nth-of-type(3){
+	width: 7.5rem;
+	height: 2.01rem;
+} 
+header .swiper-container .swiper-pagination-bullet-active{
+	background: red;
+}
+/*中间部分*/
+section{
+	width: 750px;
+	height:auto;
+	margin:0 auto;	
+}
+/*中间顶部*/
+section .sec-top{
+	width: 7.5rem;
+	height: 2rem;
+	background: #f6f6f6;
+}
+section .sec-top ul{
+	width: 6.6rem;
+	margin:0 auto;
+	text-align: center;
+	display: flex;
+	justify-content:space-between;
+}
+section .sec-top ul li{
+	width: 1rem;
+	padding-top: 0.3rem;
+}
+section .sec-top ul li img{
+	width: 0.9rem;
+	height: 0.9rem;
+}
+/* section ul li div{
+	width: 1rem;
+	padding-top: 0.2rem;
+} */
+section .sec-top ul li a{
+	display: block;
+	width:1rem;
+	color:#000;
+	font-family: Microsoft YaHei;
+	font-size: 0.24rem;
+	padding-top: 0.2rem;
+}
+/*头条*/
+section .sec-title{
+	width:7.5rem;
+	height: 0.86rem;
+	display: flex;
+	align-items: center;
+}
+section .sec-title ul{
+	height: 0.3rem;
+	overflow: hidden;
+}
+section .sec-title ul li{
+	width: 5.9rem;
+	height: 0.3rem;
+	line-height: 0.3rem;
+	text-align: center;
+}
+section .sec-title img{
+	width:1.48rem;
+	height:0.35rem;
+	margin-left: 0.2rem;
+	/*margin-top: 0.25rem;*/
+	float: left;
+}
+section .sec-title ul li span{
+	font: 0.28rem Microsoft YaHei;
+	color: #000;
+}
+/*学生类别*/
+section .sec-type{
+	width:7.5rem;
+	height: 4.3rem;
+	background:#f6f6f6; 
+	box-sizing:border-box;
+}
+/*学生类别上面部分*/
+section .sec-type .type-top{
+	width: 7.5rem;
+	height: 2rem;
+	padding-top: 0.3rem;
+}
+section .sec-type .type-top ul{
+	width: 7.5rem;
+	height: 2rem;
+	display: flex;
+	justify-content:space-between;
+}
+section .sec-type .type-top ul li{
+	width: 2.33rem;
+	height: 2rem;
+} 
+section .sec-type .type-top ul li:nth-of-type(1){
+	background: url(../images/bg-block-1.jpg);
+}
+section .sec-type .type-top ul li:nth-of-type(2){
+	background: url(../images/bg-block-2.jpg);
+}
+section .sec-type .type-top ul li:nth-of-type(3){
+	background: url(../images/bg-block-3.jpg);
+}
+section .sec-type .type-top ul li div{
+	width:1.72rem;
+	height: 0.38rem;
+	margin-top: 0.25rem;
+	background-color: rgba(0,0,0,0.3);
+	border-radius: 0 0.2rem 0.2rem 0;
+}
+section .sec-type .type-top ul li div h2{
+	font: 0.28rem Microsoft YaHei;
+	color: #fff;
+	padding-left: 0.15rem;
+	height: 0.38rem;
+	line-height: 0.38rem;
+}
+section .sec-type .type-top ul li p{
+	width: 1.94rem;
+	height: 0.64rem;
+	margin-top: 0.30rem;
+	margin-left: 0.15rem;
+}
+
+section .sec-type .type-top ul li p a{
+	display: inline-block;
+	width: 1.94rem;
+	height: 0.32rem;
+	color: #fff;
+	font: 0.22rem Microsoft YaHei;
+	line-height: 0.32rem; 
+}
+/*学生类别下面部分*/
+section .sec-type .type-bottom{
+	width: 7.5rem;
+	height: 1.55rem;
+	padding-top: 0.25rem;
+}
+section .sec-type .type-bottom ul{
+	width: 7.5rem;
+	height: 1.55rem;
+	display: flex;
+	justify-content:space-between; 
+}
+section .sec-type .type-bottom ul li{
+	width: 3.6rem;
+	height: 1.55rem;
+}
+section .sec-type .type-bottom ul li:first-of-type{
+	background: url(../images/bg-block-4.jpg);
+}
+section .sec-type .type-bottom ul li:nth-of-type(2){
+	background: url(../images/bg-block-5.jpg);
+}
+section .sec-type .type-bottom ul li h2{
+	font: 0.28rem Microsoft YaHei;
+	color: #fff;
+	padding-top: 0.25rem;
+	padding-left: 0.15rem;
+}
+section .sec-type .type-bottom ul li p{
+	color: #fff;
+	font: 0.22rem Microsoft YaHei;
+	padding:0.26rem 0 0 0.15rem; 
+}
+/*留学目的地*/
+section .sec-aim{
+	width: 7.5rem;
+	height: 6rem;
+	box-sizing:border-box;
+}
+/*留学目的地顶部*/
+section .sec-aim .aim-top{
+	width: 7.5rem;
+	height: 0.8rem;
+	border-bottom: 1px solid #d2d2d2;
+}
+section .sec-aim .aim-top .img1{
+	width: 0.44rem;
+	height: 0.4rem;
+	margin-left: 0.22rem;
+	margin-top: 0.2rem;
+}
+section .sec-aim .aim-top .img2{
+	width:0.31rem;
+	height: 0.26rem; 
+	margin:0.20rem 0.1rem 0 3.34rem;
+}
+section .sec-aim .aim-top span:nth-of-type(1){
+	font:0.28rem Microsoft YaHei;
+}
+section .sec-aim .aim-top span:nth-of-type(2){
+	display: inline-block;
+}
+section .sec-aim .aim-top span:nth-of-type(2) a{
+	display: block;
+	font:0.24rem Microsoft YaHei;
+	color: red;
+}
+/*留学目的地底部*/
+section .sec-aim .swiper-container{
+	width: 7.5rem;
+	height: 5.2rem;
+}
+section .sec-aim .aim-bottom{
+	width: 7.5rem;
+	height: 5.2rem;
+}
+section .sec-aim .aim-bottom ul{
+	width: 7.06rem;
+	height: 4rem;
+	margin: 0.43rem auto;
+}
+section .sec-aim .aim-bottom ul li{
+	width: 1.35rem;
+	height: 1.8rem;
+	float: left;
+	margin-right: 0.55rem;
+	padding-bottom: 0.43rem;
+	text-align: center;
+}
+section .sec-aim .aim-bottom ul li:nth-of-type(4n){
+	margin-right: 0;
+}
+section .sec-aim .aim-bottom ul li img{
+	width: 1.2rem;
+	height: 1.2rem;
+}
+section .sec-aim .aim-bottom ul li p{
+	font:0.26rem Microsoft YaHei;
+	padding-top: 0.10rem;
+}
+/*灰色部分*/
+section .gray{
+	width: 7.5rem;
+	height: 0.3rem;
+	background: #f5f5f5;
+}
+/*热门留学学校*/
+section .sec-school{
+	width: 7.5rem;
+	height: auto;
+}
+/*热门留学学校头部*/
+section .sec-school .sch-top{
+	width: 7.5rem;
+	height: 0.8rem;
+	border-bottom: 1px solid #d2d2d2;
+}
+section .sec-school .sch-top .img1{
+	width: 0.44rem;
+	height: 0.4rem;
+	margin-left: 0.22rem;
+	margin-top: 0.2rem;
+}
+section .sec-school .sch-top .img2{
+	width:0.31rem;
+	height: 0.26rem; 
+	margin:0.20rem 0.1rem 0 3.34rem;
+}
+section .sec-school .sch-top span:nth-of-type(1){
+	font:0.28rem Microsoft YaHei;
+}
+section .sec-school .sch-top span:nth-of-type(2){
+	display: inline-block;
+}
+section .sec-school .sch-top span:nth-of-type(2) a{
+	display: block;
+	font:0.24rem Microsoft YaHei;
+	color: red;
+}
+/*热门留学学校主体部分*/
+section .sec-content{
+	width: 7.5rem;
+	height: auto;
+}
+/*热门留学学校主体部分顶部*/
+section .sec-content .con-top{
+	width: 7.5rem;
+	height: 0.85rem;
+	border-bottom:1px solid #f5f5f5;
+}
+section .sec-content .con-top ul{
+	width: 7.2rem;
+	height: 0.86rem;
+	margin:0 auto;
+	text-align: center;
+	display: flex;
+	jusityfi-content:space-between;
+}
+section .sec-content .con-top ul li{
+	width: 1.44rem;
+	height: 0.61rem;
+	padding-top: 0.25rem;
+	font: 0.28rem Microsoft YaHei;
+}
+/*热门留学学校主体部分*/
+section .sec-content .con-main{
+	width: 7.5rem;
+	height: auto;
+}
+section .sec-content .con-main li{
+	width: 7.3rem;
+	height: 1.55rem;
+	border-bottom: 1px solid #f5f5f5;
+}
+section .sec-content .con-main li>div{
+	width:7.1rem;
+	height: 0.4rem;
+	margin-top: 0.36rem;
+	margin-left: 0.25rem;
+	box-sizing: border-box;
+}
+section .sec-content .con-main li div span{
+	display: block;
+	width: 0.37rem;
+	height: 0.37rem;
+	background: #fe3c24;
+	color: #fff;
+	font: 0.24rem Microsoft YaHei;
+	border-radius: 0.03rem;
+	text-align: center;
+	line-height: 0.37rem;
+	float: left; 
+}
+section .sec-content .con-main ul li>div h2{
+	font:0.32rem Microsoft YaHei;
+	float: left;
+	margin-left: 0.14rem;
+}
+section .sec-content .con-main ul li>div div{
+	width: 1.04rem;
+	height: 0.36rem;
+	border:1px solid #23cd77;
+	color: #23cd77;
+	font: 0.26rem Microsoft YaHei;
+	float: left;
+	border-radius: 0.05rem;
+	text-align: center;
+	line-height: 0.36rem;
+	margin-left: 0.1rem;
+}
+section .sec-content .con-main ul li>div img{
+	width: 0.2rem;
+	height: 0.36rem;
+	float: right;
+	margin:0.22rem 0.22rem 0 0;
+}
+section .sec-content .con-main ul li p{
+	display: inline-block;
+	margin-left: 0.25rem;
+	margin-top: 0.22rem;
+	font: 0.24rem Microsoft YaHei;
+	color: #c4c3c3;
+}
+/*热门留学学校主体底部加载更多*/
+section .sec-content .con-bottom{
+	width: 7.5rem;
+	height: 1.6rem;	
+}
+section .sec-content .con-bottom .con-btn{
+	width:7.05rem;
+	height: 0.75rem;
+	background: #fff;
+	border:1px solid #d3d3d3;
+	margin: 0.4rem 0 0 0.25rem;
+	font: 0.26rem Microsoft YaHei;
+	color:#6d6d6d;
+}
+/*广告部分*/
+section .sec-content .con-adv{
+	width: 7.5rem;
+	height: 2.1rem;
+	background: #f5f5f5;
+}
+section .sec-content .con-adv ul li{
+	width: 3.75rem;
+	height: 1.45rem;
+	float: left;
+	margin-top: 0.3rem;
+}
+section .sec-content .con-adv ul li:first-of-type{
+	background: url(../images/back_btn1.png) no-repeat;
+	background-size: contain;
+}
+section .sec-content .con-adv ul li:nth-of-type(2){
+	background: url(../images/back_btn2.png) no-repeat;
+	background-size: contain;
+}
+section .sec-content .con-adv ul li img{
+	width: 0.77rem;
+	height: 0.76rem;
+	margin: 0.35rem 0 0 0.3rem;
+	float: left;
+}
+section .sec-content .con-adv ul li h2{
+	font:0.3rem Microsoft YaHei;
+	color: #fff;
+	padding: 0.32rem 0 0 1.2rem;
+}
+section .sec-content .con-adv ul li p{
+	font:0.24rem "microsoft yahei";
+	color: #fff;
+	padding: 0.20rem 0 0 1.2rem;
+}
+/*优选留学方案*/
+section .sec-plan{
+	width: 7.5rem;
+	height: 1rem;
+}
+section .sec-plan img:nth-of-type(1){
+	width: 0.44rem;
+	height: 0.40rem;
+	margin: 0.3rem 0 0 0.25rem;
+}
+section .sec-plan span{
+	font:0.28rem "microsoft yahei";
+}
+section .sec-plan img:nth-of-type(2){
+	width: 0.36rem;
+	height: 0.2rem;
+	float: right;
+	margin: 0.35rem 0.15rem 0 0;
+}
+/*留学必看*/
+section .sec-look{
+	width: 7.5rem;
+	height: 7.07rem;
+}
+/*留学必看顶部*/
+section .sec-look .look-top{
+	width: 7.5rem;
+	height: 0.8rem;
+	border-bottom: 1px solid #d2d2d2;
+	display: flex;
+	align-items: center;
+}
+section .sec-look .look-top .img1{
+	width: 0.44rem;
+	height: 0.4rem;
+	margin-left: 0.22rem;
+	/* margin-top: 0.25rem; */
+}
+section .sec-look .look-top .img2{
+	width:0.31rem;
+	height: 0.26rem; 
+	margin-right: 0.1rem;
+	margin-left: 2rem;
+}
+section .sec-look .look-top span:nth-of-type(1){
+	display: inline-block;
+	height: 0.32rem;
+	font:0.32rem Microsoft YaHei;
+	padding-left: 0.1rem;
+	padding-bottom:0.05rem;
+}
+section .sec-look .look-top span:nth-of-type(2){
+	display: inline-block;
+}
+section .sec-look .look-top span:nth-of-type(2) a{
+	display: block;
+	font:0.24rem Microsoft YaHei;
+	color: red;
+}
+/*留学必看主体部分*/
+section .sec-look .look-main{
+	width: 7.5rem;
+	height: 4.7rem;
+}
+section .sec-look .look-main li{
+	width: 7.05rem;
+	height: 0.95rem;
+	border-bottom: 1px solid #f5f5f5;
+	padding-left: 0.22rem;
+}
+section .sec-look .look-main li span{
+	display: block;
+	width: 0.37rem;
+	height: 0.37rem;
+	background: #fe3c24;
+	color: #fff;
+	font: 0.24rem Microsoft YaHei;
+	border-radius: 0.03rem;
+	text-align: center;
+	line-height: 0.37rem;
+	float: left; 
+	margin:0.25rem 0.1rem 0 0;
+}
+section .sec-look .look-main li h2{
+	font:0.30rem Microsoft YaHei;
+	float: left;
+	margin-top: 0.28rem;
+}
+section .sec-look .look-main li img{
+	width: 0.2rem;
+	height: 0.36rem;
+	float: right;
+	margin-top: 0.28rem;
+}
+/*留学必看底部按钮*/
+section .sec-look .look-bottom{
+	width: 7.5rem;
+	height: 1.5rem;
+}
+section .sec-look .look-bottom .look-btn{
+	width: 4.05rem;
+	height: 0.70rem;
+	border: 1px solid #ff7a00;
+	color: #ff7a00;
+	background: #fff;
+	font: 0.32rem Microsoft YaHei;
+	margin: 0.4rem 0 0 1.75rem;
+}
+/*留学精彩专题*/
+section .sec-topic{
+	width: 7.5rem;
+	height: 5.86rem;
+}
+section .sec-topic .topic-top{
+	width: 7.3rem;
+	height: 0.6rem;
+	border-bottom: 1px solid #d2d2d2;
+	padding-top: 0.2rem;
+	padding-left: 0.2rem;
+}
+section .sec-topic .topic-top .img1{
+	width: 0.44rem;
+	height: 0.4rem;
+	margin-right: 0.15rem;
+	vertical-align: middle;
+}
+section .sec-topic .topic-top .img2{
+	width: 0.31rem;
+	height: 0.26rem;
+	margin-left: 3.4rem;
+	margin-right: 0.15rem;
+	vertical-align: middle;
+}
+section .sec-topic .topic-top span:nth-of-type(1){
+	font:0.32rem Microsoft YaHei;
+	height: 0.30rem;
+	vertical-align: middle;
+}
+section .sec-topic .topic-top span:nth-of-type(2){
+	display: inline-block;
+	font:0.24rem Microsoft YaHei;
+	color: red;
+	vertical-align: middle;
+	
+}
+
+section .sec-topic .topic-main{
+	width: 7.5rem;
+	height: 5.04rem;
+	position: relative;
+}
+section .sec-topic .topic-main .main-left{
+	width: 2.9rem;
+	height: 2.95rem;
+	background: url(../images/index_img.jpg) no-repeat;
+	background-size: contain;
+	position: absolute;
+	top:0.3rem;
+	left: 0.2rem;	
+}
+section .sec-topic .topic-main .main-right1{
+	width: 4.15rem;
+	height: 1.4rem;
+	background: url(../images/index_img1.jpg);
+	position: absolute;
+	top: 0.3rem;
+	right:0.15rem;
+}
+section .sec-topic .topic-main .main-right2{
+	width: 1.97rem;
+	height: 1.36rem;
+	background: url(../images/index_img2.jpg);
+	position: absolute;
+	top:1.8rem;
+	left: 3.2rem;
+}
+section .sec-topic .topic-main .main-right3{
+	width:1.97rem;
+	height: 1.36rem;
+	background: url(../images/index_img3.jpg);
+	position: absolute;
+	top:1.8rem;
+	right:0.15rem;
+}
+section .sec-topic .topic-main .main-bottom1{
+	width:3.52rem;
+	height: 1.32rem;
+	background:url(../images/index_img4.jpg);
+	position: absolute;
+	bottom:0.3rem;
+	left: 0.2rem;
+}
+section .sec-topic .topic-main .main-bottom2{
+	width:3.52rem;
+	height: 1.32rem;
+	background:url(../images/index_img5.jpg);
+	position: absolute;
+	bottom:0.3rem;
+	right: 0.15rem;
+}
+section .sec-topic .topic-main h2{
+	font: 0.34rem Microsoft YaHei;
+	color: #fff;
+}
+section .sec-topic .topic-main .main-left h2{
+	margin: 0.5rem 0 0 0.2rem;
+}
+section .sec-topic .topic-main .main-right1 h2{
+	margin: 0.5rem 0 0 1.46rem;
+}
+section .sec-topic .topic-main .main-right2 h2{
+	width: 1.2rem;
+	font:0.3rem Microsoft YaHei;
+	margin: 0.30rem 0 0 0.4rem;
+}
+section .sec-topic .topic-main .main-right3 h2:nth-of-type(1){
+	width: 0.9rem;
+	font:0.3rem Microsoft YaHei;
+	margin: 0.3rem 0 0 0.9rem;
+}
+section .sec-topic .topic-main .main-right3 h2:nth-of-type(2){
+	width: 1.2rem;
+	font:0.3rem Microsoft YaHei;
+	margin: 0.01rem 0 0 0.6rem;
+}
+section .sec-topic .topic-main .main-bottom1 h2{
+	margin: 0.55rem 0 0 0.5rem;
+}
+section .sec-topic .topic-main .main-bottom2 h2{
+	margin: 0.55rem 0 0 0.35rem;
+}
+/*留学生数据*/
+section .sec-number{
+	width:7.5rem;
+	height: 4.5rem;
+}
+section .sec-number .number-top{
+	width: 7.5rem;
+	height: 1.1rem;
+	border-bottom:1px solid #d2d2d2;
+}
+section .sec-number .number-top h2{
+	font: 0.36rem Microsoft YaHei;
+	text-align: center;
+	padding-top: 0.35rem;
+	color: #666464;
+}
+section .sec-number .number-main{
+	width: 7.5rem;
+	height: 3.38rem;
+}
+section .sec-number .number-main ul{
+	width: 6.06rem;
+	height: 0.96rem;
+	margin: 0.5rem auto;
+	display: flex;
+	justify-content:space-between;
+}
+section .sec-number .number-main ul li{
+	width: 2.95rem;
+	height: 0.96rem;
+}
+section .sec-number .number-main ul li img{
+	width: 0.93rem;
+	height: 0.92rem;
+	float: left;
+}
+section .sec-number .number-main ul li p:nth-of-type(1){
+	font: 0.36rem Microsoft YaHei;
+	width: 1.35rem;
+	color: red;
+	margin-left: 1.03rem;
+	padding-top: 7px;
+}
+section .sec-number .number-main ul li p:nth-of-type(2){
+	font: 0.25rem Microsoft YaHei;
+	width: 2rem;
+	color: #928b8b;
+	margin-left: 1.03rem;
+}
+/*底部*/
+footer{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	position: fixed;
+	bottom: 0;
+	z-index: 1;
+	padding: 0.1rem 0;
+	background: rgba(255,255,255,0.8);
+	
+}
+footer ul{
+	width: 6.5rem;
+	height: 1.2rem;
+	margin: 0.1rem auto;
+	display: flex;
+	justify-content:space-between;
+}
+footer ul li{
+	width: 1.2rem;
+	height: 1.2rem;
+	text-align: center;
+}
+footer ul li i{
+	text-align: center;
+	font-size: 0.4rem !important;
+}
+footer ul li img{
+	width: 0.5rem;
+	height: 0.49rem;
+}
+footer ul li p{
+	font:0.22rem Microsoft YaHei;
+	padding-top: 0.15rem;
+	color: #969696;
+	width: 1.2rem;
+	text-align: center;
+}
+footer ul li.on{
+	color: #f00;
+}
+footer ul li.on p{
+	color: #f00;
+}
+/*左侧弹出小图标*/
+ .left-alert{
+	width: 100%;
+	height: 1.32rem;
+	margin:0 auto;
+	margin-bottom: 1rem;
+}
+.left-alert img:nth-of-type(1){
+	width: 1.06rem;
+	height: 1.09rem;
+	float: left;
+	position: fixed;
+	bottom: 1rem;
+	left: 0;
+	z-index: 5;
+}
+.right-alert img{
+	width:0.76rem;
+	height: 1.32rem;
+	position: fixed;
+	bottom: 1rem;
+	right:0;
+	z-index: 5;
+}
+.left-alert img:not(first-child){
+	width: 0.77rem;
+	height: 0.77rem;
+	position: fixed;
+	bottom:1.15rem;
+	left:0.15rem;
+	z-index: 4;
+	
+}
+/*下拉列表优选方案*/
+section .xiala_plan{
+	width: 7.46rem;
+	height: 3.68rem;
+	background: #f6f6f6; 
+}
+section .xiala_plan ul{
+	width: 7.46rem;
+}
+section .xiala_plan ul li{
+	width: 7.46rem;
+	height: 0.92rem;
+	border-bottom: 1px solid #eee;
+}
+section .xiala_plan ul li img:nth-of-type(1){
+	width: 0.4rem;
+	height: 0.39rem;
+	margin:0.28rem 0 0 0.25rem;
+}
+section .xiala_plan ul li span:nth-of-type(1){
+	font:0.26rem Microsoft YaHei;
+}
+section .xiala_plan ul li img:nth-of-type(2){
+	width: 0.4rem;
+	height: 0.39rem;
+	margin:0.28rem 0 0 2rem;
+}
+section .xiala_plan ul li span:nth-of-type(2){
+	font:0.26rem Microsoft YaHei;
+}
+/*侧边栏*/
+#article{
+	position: relative;
+	right:0;
+}
+#asd-animate{
+	width: 2.94rem;
+	height: 100%;
+	background: #242e30;
+	position: fixed;
+}
+#asd-animate ul li{
+	width: 2.94rem;
+	height: 0.59rem;
+	border-bottom: #fff;
+	color: #fff;
+	font:0.3rem Microsoft YaHei;
+	text-align: center;
+	line-height: 0.59rem;
+}
+
+#asd-animate{
+	position: absolute;
+	top:0;
+	right: -2.94rem;
+}
+
+/*中间大弹框*/
+.over{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(1,1,1,0.5);
+	position: fixed;
+	z-index: 3;
+}
+.center-alert{
+	width: 6.18rem;
+	height: 4.92rem;
+	position: fixed;
+	left:50%;
+	top:50%;
+	margin-top: -2.5rem;
+	margin-left: -3.1rem;
+	z-index: 4;
+}
+.center-alert .alert{
+	width: 6.18rem;
+	height: 4.92rem;
+	background: url(../images/back_btn3.png) no-repeat;
+	background-size: contain;
+	position: relative;	
+}
+.center-alert .alert .close{
+	width: 0.54rem;
+	height: 0.54rem;
+	position: absolute;
+	top:-0.27rem;
+	left: 5.9rem;
+	
+}
+.center-alert .alert .close img{
+	width: 0.54rem;
+	height: 0.54rem;
+}
+.center-alert .alert .alert-spac{
+	width: 4.96rem;
+	height: 0.6rem;
+	background: #ffed74;
+	border-radius: 0.1rem;
+	position: absolute;
+	top:2.33rem;
+	left: 0.62rem;
+	text-align: center;
+	line-height: 0.6rem;
+}
+.center-alert .alert .alert-spac a{
+	display: inline;
+	font:0.3rem Microsoft Yahei;
+	color: #000;
+}
+.center-alert .alert .one{
+	width: 0.3rem;
+	height: 0.3rem;
+	background: red;
+	border-radius: 50%;
+	text-align: center;
+	padding-top: 0.05rem;
+	font: 0.2rem Microsoft Yahei;
+	color: #fff;
+	box-sizing: border-box;
+	position: absolute;
+	top:2.2rem;
+	left: 5.4rem;
+}
+.center-alert .alert .phone{
+	width: 4.96rem;
+	height: 0.54rem;
+	position: absolute;
+	top:3.3rem;
+	left: 0.62rem;
+}
+.center-alert .alert .phone input{
+	width: 2.94rem;
+	height: 0.55rem;
+	border-radius: 0.1rem;
+	text-align: center;
+	font:0.28rem Microsoft Yahei;
+}
+.center-alert .alert .phone button{
+	width: 1.75rem;
+	height: 0.55rem;
+	background: #f00;
+	color: #fff;
+	font:0.32rem Microsoft Yahei;
+	border-radius: 0.1rem;
+}
+
+
+
+
+
+
+
+
+
+.hover{
+	height: 0.86rem;
+	font: 0.28rem Microsoft YaHei;
+	color: red;
+	border-bottom:1px solid red;
+}
+
+
+
+
+
+
+
+
+
+
+
